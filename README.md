@@ -3,6 +3,7 @@
 
 In this project we were to devise a model that can detect diffrent facial expressions.
 
+
 There are 2 approaches:
 
 # First approach : using a modified model
@@ -18,5 +19,9 @@ The notebook named " Facial expression3.ipynp "  is written in google colabrotar
 # Real_time Facial expression on webcam
 
 https://user-images.githubusercontent.com/70627266/152494735-56c4866c-a761-42fa-a4e7-d5e20b7984ce.mp4
+
+# DATASET
+
+you can download it from here: https://www.kaggle.com/datasets
 
 
