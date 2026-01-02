@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.h5
+*.hdf5
+*.ckpt
+*.log
+.env
+.venv
+.ipynb_checkpoints/
+datasets/
+models/
+outputs/
+.DS_Store
