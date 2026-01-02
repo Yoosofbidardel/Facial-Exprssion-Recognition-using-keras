@@ -107,3 +107,8 @@ Both scripts mirror the CLI behavior and can be customized for more advanced aut
 - Default model expects grayscale 48×48 inputs. Adjust `color_mode` and `image_size` in the config if your dataset differs.
 - For highest performance, ensure GPU-accelerated TensorFlow is installed in your environment.
 
+  
+<p align="center" width="100%">
+<video src="https://github.com/Yoosofbidardel/Facial-Exprssion-Recognition-using-keras/issues/1#issue-1123928783" width="80%" controls></video>
+</p>
+   
