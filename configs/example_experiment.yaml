@@ -1,0 +1,28 @@
+# Example configuration for training the facial expression recognition model
+
+# Update these directories to point to your local dataset split
+# The folder names within ``train_dir`` and ``val_dir`` should map directly to class names
+# e.g. train_dir/happy, train_dir/sad, etc.
+dataset:
+  train_dir: datasets/train
+  val_dir: datasets/val
+  image_size: 48
+  batch_size: 64
+  color_mode: grayscale
+  class_names: [angry, disgust, fear, happy, neutral, sad, surprise]
+  augment: true
+
+model:
+  base_filters: 64
+  dense_units: [256, 512]
+  dropout_rate: 0.25
+  learning_rate: 0.0005
+  num_classes: 7
+
+training:
+  epochs: 30
+  monitor_metric: val_accuracy
+  output_dir: outputs
+  early_stopping_patience: 5
+  reduce_lr_patience: 2
+  reduce_lr_factor: 0.1
